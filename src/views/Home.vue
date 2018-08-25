@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     我是home组件
+    <h3>{{ 1528894086450 | formatDate('yyyy年MM月dd日HH:mm:ss') }}</h3>
   </div>
 </template>
 
@@ -15,3 +16,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.home{
+  color:$mask-rgba;
+}
+</style>
+
